@@ -1,0 +1,6 @@
+services:
+  esie.route_subscriber:
+    class: Drupal\esie\Routing\RouteSubscriber
+    tags:
+      # clever theme switcher has priority 9000 so this should be highest
+      - { name: event_subscriber, priority: 9001 }

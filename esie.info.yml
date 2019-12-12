@@ -1,0 +1,6 @@
+name: ESIE Custom Module
+description: Intervenes in external modules routing to enforce admin theme
+package: Custom
+
+type: module
+core: 8.x
