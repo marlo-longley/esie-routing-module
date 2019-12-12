@@ -26,7 +26,7 @@ class RouteSubscriber extends RouteSubscriberBase {
         $route->setOption('_fake_marlo_option', TRUE);
         
         // Log the route info for this particular $name for testing
-        // This does print as _admin_theme: true, _fake_marlo_option: true. Options are added correctly.
+        // This does print as _admin_route true, _fake_marlo_option: true. Options are added correctly.
         error_log(var_export($collection->get($name), true));
         
         
